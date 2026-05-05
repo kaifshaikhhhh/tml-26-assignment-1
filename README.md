@@ -40,14 +40,9 @@ From the repository root, run:
 python src/main.py \
   --directory . \
   --output submission.csv \
-  --num_ref_models 4 \
-  --epochs 5 \
-  --batch_size 128 \
-  --gamma 1.0 \
-  --a 0.3 \
-  --Z_size 1000 \
-  --val_size 0.2 \
-  --seed 42
+  --num_ref_models 6 \
+  --epochs 30 \
+  --Z_size 1000
 ```
 
 This will:
